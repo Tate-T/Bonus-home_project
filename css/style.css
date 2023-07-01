@@ -77,6 +77,10 @@
   color: #ffffff;
 }
 
+.hero-item:nth-child(1) button:hover {
+  background-color: transparent;
+}
+
 .hero-item:nth-child(2) button {
   width: 170px;
   height: 52px;
@@ -87,6 +91,11 @@
   line-height: 1.5;
   text-align: center;
   color: #ffffff;
+}
+
+.hero-item:nth-child(2) button:hover {
+ background-color: transparent;
+ border: 2px solid rgba(228, 216, 204, 0.5);
 }
 
 .products-text {
@@ -296,10 +305,6 @@
 
 }
 
-.questions-info {
-  outline: solid red;
-}
-
 .questions-container {
   display: flex;
   justify-content: space-between;
@@ -314,4 +319,63 @@
   width: 520px;
   height: auto;
   flex-shrink: 0;
+}
+
+.mission {
+  background-image: url(/img/bg-mission.png);
+  background-repeat: no-repeat;
+  background-position: center;
+background-size: cover;
+
+  padding-top: 139px;
+  padding-bottom: 97px;
+}
+
+.mission-text {
+  color: #C3BAB1;
+font-size: 15px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 1.66;
+
+padding-bottom: 19px;
+}
+
+.mission-title {
+  color: #E7DFD8;
+font-size: 48px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 1.12;
+max-width: 580px;
+
+padding-bottom: 24px;
+}
+
+.mission-description {
+  color: #E4D8CC;
+font-size: 12px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 1.66;
+letter-spacing: 2px;
+text-transform: uppercase;
+border-bottom: 1px solid #E4D8CC;
+max-width: 271px;
+
+padding-bottom: 13px;
+
+position: relative;
+}
+
+.mission-description::after {
+content: '→';
+display: block;
+margin-left: 10px;
+position: absolute;
+right: 0;
+top: 0;
 }

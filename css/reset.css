@@ -24,3 +24,10 @@ body{
     font-weight: 400;
 }
 
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: transparent;
+}
