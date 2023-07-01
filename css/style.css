@@ -109,19 +109,16 @@
 .products-container {
   display: flex;
   justify-content: space-between;
-
-
 }
 
 .products {
   padding-top: 76px;
   padding-bottom: 75px;
-  background-color: #E7DFD8;
-
+  background-color: #e7dfd8;
 }
 
 .cards {
-  background-color: #E7DFD8;
+  background-color: #e7dfd8;
 }
 
 .cards-item {
@@ -175,15 +172,15 @@
 }
 
 .cards-item:nth-child(1) .cards-number {
-  background-color: #B99FEA;
+  background-color: #b99fea;
 }
 
 .cards-item:nth-child(2) .cards-number {
-  background-color: #EBA789;
+  background-color: #eba789;
 }
 
 .cards-item:nth-child(3) .cards-number {
-  background-color: #96DBC6;
+  background-color: #96dbc6;
 }
 
 .cards-paragraph {
@@ -198,7 +195,6 @@
   letter-spacing: 1px;
   color: #101010;
   margin-bottom: 11px;
-
 }
 
 .cards-text {
@@ -214,4 +210,52 @@
   font-size: 14px;
   line-height: 1.57;
   color: #101010;
+}
+.feedback-info {
+  color: #e4d8cc;
+  text-align: center;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 48px;
+}
+.feedback-list{
+  display: flex;
+  gap: 128px;
+  margin-bottom: 112px;
+}
+.feedback-item{
+  text-align: center;
+}
+.feedback-section{
+  padding-top: 116px;
+}
+.feedback-quote{
+  margin-left: auto;
+  margin-right: auto;
+}
+.feedback-box1{
+  display: flex;
+  justify-content: center;
+  margin-top: 61px;
+}
+.feedback-box2{
+  margin-left: 29px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.feedback-text{
+  color: #E4D8CC;
+font-size: 14px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.feedback-image{
+  margin: 68px auto 0 ;
+
 }
