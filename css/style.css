@@ -424,6 +424,12 @@
   margin-top: 19px;
 }
 
+.footer-smile {
+  width: 60px;
+  height: 55px;
+
+}
+
 .footer-name {
   display: flex;
   width: 163px;
@@ -468,6 +474,14 @@
   line-height: 28px;
   margin-top: 47px;
 }
+
+.footer-icons {
+  width: 24px;
+  height: 24px;
+  fill: lightgray;
+  cursor: pointer;
+}
+
 .footer-copyright {
   color: #e4d8cc;
   text-align: right;
