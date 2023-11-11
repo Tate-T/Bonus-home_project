@@ -75,6 +75,7 @@
   line-height: 1.5;
   text-align: center;
   color: #ffffff;
+  transition: background-color 500ms linear;
 }
 
 .hero-item:nth-child(1) button:hover {
@@ -91,6 +92,7 @@
   line-height: 1.5;
   text-align: center;
   color: #ffffff;
+  transition: background-color 500ms linear, border 500ms linear;
 }
 
 .hero-item:nth-child(2) button:hover {
