@@ -12,6 +12,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/reset.css" />
   <link rel="stylesheet" href="./css/style.css" />
 </head>
@@ -48,7 +53,7 @@
   <main>
     <section class="hero">
       <div class="container">
-        <h1 class="hero-title">
+        <h1 class="hero-title animate__heartBeat">
           Sell your home without missing out on its future worth.
         </h1>
         <p class="hero-text">
@@ -89,14 +94,14 @@
         <ul class="cards-list">
           <li class="cards-item">
             <div class="cards-photo">
-              <img class="cards-img" src="./img/cards-1.webp" alt="product" />
+              <img data-aos="fade-right" data-aos-duration="3000" class="cards-img" src="./img/cards-1.webp" alt="product" />
             </div>
             <div class="cards-flex">
               <div class="cards-box">
                 <p class="cards-number">1</p>
                 <p class="cards-paragraph">Bonus Your Home Today</p>
               </div>
-              <h2 class="cards-title">
+              <h2 class="cards-title" data-aos="flip-up">
                 Sell your equity to Bonus™ and turn your home into a long-term
                 investment.
               </h2>
@@ -113,7 +118,7 @@
           </li>
           <li class="cards-item">
             <div class="cards-photo">
-              <img class="cards-img" src="./img/cards-2.webp" alt="product" />
+              <img data-aos="fade-left" data-aos-duration="3000" class="cards-img" src="./img/cards-2.webp" alt="product" />
             </div>
             <div class="cards-flex">
               <div class="cards-box">
@@ -313,6 +318,11 @@
       </div>
     </footer>
   </main>
-</body>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
 </html>
