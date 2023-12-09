@@ -1,10 +1,4 @@
-:root {
-  --buttons-background: #7837F3;
-  --background-color: #E7DFD8;
-  --text-color: #E4D8CC;
-  --additional-text-color: #101010;
-  --link-color: #B99FEA;
-}
+
 
 .header {
   padding-top: 23px;
@@ -12,12 +6,7 @@
   position: absolute;
 }
 
-.container {
-  /* outline: solid red; */
-  padding: 0px 15px;
-  width: 1182px;
-  margin: 0 auto;
-}
+
 
 .navigation-list {
   display: flex;
