@@ -1,0 +1,27 @@
+.products-text {
+    font-size: 54px;
+    line-height: 58px;
+
+    color: var(--additional-text-color);
+    width: 507px;
+    margin-bottom: 15px;
+}
+
+.products-description {
+    font-size: 16px;
+    line-height: 22px;
+
+    color: var(--additional-text-color);
+    width: 452px;
+}
+
+.products-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products {
+    padding-top: 76px;
+    padding-bottom: 75px;
+    background-color: var(--text-color);
+}

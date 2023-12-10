@@ -1,0 +1,58 @@
+.mission {
+    background-image: url(../img/bg-mission.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    padding-top: 139px;
+    padding-bottom: 97px;
+}
+
+.mission-text {
+    color: #c3bab1;
+    font-size: 15px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.66;
+
+    padding-bottom: 19px;
+}
+
+.mission-title {
+    color: var(--background-color);
+    font-size: 48px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.12;
+    max-width: 580px;
+
+    padding-bottom: 24px;
+}
+
+.mission-description {
+    color: var(--text-color);
+    font-size: 12px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.66;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--text-color);
+    max-width: 271px;
+
+    padding-bottom: 13px;
+
+    position: relative;
+}
+
+.mission-description::after {
+    content: "→";
+    display: block;
+    margin-left: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

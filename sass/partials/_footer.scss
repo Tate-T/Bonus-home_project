@@ -1,0 +1,125 @@
+.footer {
+    background-color: var(--additional-text-color);
+    padding-top: 78px;
+    padding-bottom: 28px;
+}
+
+.footer-text {
+    color: var(--text-color);
+    font-size: 23px;
+    font-style: normal;
+    line-height: 1.04;
+}
+
+.footer-card:nth-child(1) .footer-button {
+    width: 215px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 1px solid var(--buttons-background);
+    background: var(--buttons-background);
+}
+
+.footer-card:nth-child(2) .footer-button {
+    width: 251px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 1px solid var(--text-color);
+    background-color: transparent;
+}
+
+.footer-button {
+    display: flex;
+    width: 150px;
+    color: #fffaf5;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.footer-smile {
+    width: 60px;
+    height: 55px;
+
+}
+
+.footer-name {
+    display: flex;
+    width: 163px;
+    color: var(--text-color);
+    font-size: 20px;
+    line-height: 1.25;
+    margin-bottom: 48px;
+}
+
+.footer-link {
+    display: flex;
+    color: var(--text-color);
+    font-size: 20px;
+    line-height: 1;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 75px;
+}
+
+.footer-cards {
+    display: flex;
+    gap: 42px;
+    margin-bottom: 86px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer-info {
+    color: var(--text-color);
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 47px;
+}
+
+.footer-icons {
+    width: 24px;
+    height: 24px;
+    fill: lightgray;
+    cursor: pointer;
+}
+
+.footer-copyright {
+    color: var(--text-color);
+    text-align: right;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 11px;
+}
+
+.footer-pages {
+    display: flex;
+    gap: 298px;
+}
+
+.footer-help {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 164px;
+    align-items: center;
+    border-top: solid rgba(228, 216, 204, 0.16) 1px;
+    padding-top: 28px;
+}

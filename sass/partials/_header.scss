@@ -1,0 +1,32 @@
+.header {
+    padding-top: 23px;
+    /* background-color: blueviolet; */
+    position: absolute;
+}
+
+
+
+.navigation-list {
+    display: flex;
+    gap: 32px;
+    margin-right: 253px;
+}
+
+.navigation-contacts {
+    display: flex;
+    gap: 38px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation-link,
+.contact-link {
+    font-size: 11px;
+    line-height: 2.18;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
