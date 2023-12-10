@@ -44,25 +44,20 @@ button:hover {
   /* background-color: blueviolet; */
   position: absolute;
 }
-
-.navigation-list {
+.header__list {
   display: flex;
   gap: 32px;
   margin-right: 253px;
 }
-
-.navigation-contacts {
+.header__contacts {
   display: flex;
   gap: 38px;
 }
-
-.navigation {
+.header__navigation {
   display: flex;
   justify-content: flex-end;
 }
-
-.navigation-link,
-.contact-link {
+.header__page, .header__link {
   font-size: 11px;
   line-height: 2.18;
   letter-spacing: 1.5px;
@@ -311,6 +306,47 @@ button:hover {
   margin: 68px auto 0;
 }
 
+.questions-section {
+  background: #101010;
+  padding-top: 118px;
+  padding-bottom: 153px;
+}
+
+.questions-text {
+  color: #B99FEA;
+  font-size: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0, 71;
+}
+
+.questions-title {
+  color: #E4D8CC;
+  font-size: 36px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0, 78;
+  letter-spacing: 1px;
+  margin-bottom: 45px;
+}
+
+.questions-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.questions-item:not(:last-child) {
+  margin-bottom: 52px;
+}
+
+.questions-img {
+  width: 520px;
+  height: auto;
+  flex-shrink: 0;
+}
+
 .mission {
   background-image: url(../img/bg-mission.webp);
   background-repeat: no-repeat;
@@ -363,47 +399,6 @@ button:hover {
   position: absolute;
   right: 0;
   top: 0;
-}
-
-.questions-section {
-  background: #101010;
-  padding-top: 118px;
-  padding-bottom: 153px;
-}
-
-.questions-text {
-  color: #B99FEA;
-  font-size: 20px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  line-height: 0, 71;
-}
-
-.questions-title {
-  color: #E4D8CC;
-  font-size: 36px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  line-height: 0, 78;
-  letter-spacing: 1px;
-  margin-bottom: 45px;
-}
-
-.questions-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.questions-item:not(:last-child) {
-  margin-bottom: 52px;
-}
-
-.questions-img {
-  width: 520px;
-  height: auto;
-  flex-shrink: 0;
 }
 
 .footer {
