@@ -1,11 +1,11 @@
 .footer {
-    background-color: var(--additional-text-color);
+    background-color: $additional-text-color;
     padding-top: 78px;
     padding-bottom: 28px;
 }
 
 .footer-text {
-    color: var(--text-color);
+    color: $text-color;
     font-size: 23px;
     font-style: normal;
     line-height: 1.04;
@@ -16,8 +16,8 @@
     height: 42px;
     flex-shrink: 0;
     border-radius: 100px;
-    border: 1px solid var(--buttons-background);
-    background: var(--buttons-background);
+    border: 1px solid $buttons-background;
+    background: $buttons-background;
 }
 
 .footer-card:nth-child(2) .footer-button {
@@ -25,7 +25,7 @@
     height: 42px;
     flex-shrink: 0;
     border-radius: 100px;
-    border: 1px solid var(--text-color);
+    border: 1px solid $text-color;
     background-color: transparent;
 }
 
@@ -50,7 +50,7 @@
 .footer-name {
     display: flex;
     width: 163px;
-    color: var(--text-color);
+    color: $text-color;
     font-size: 20px;
     line-height: 1.25;
     margin-bottom: 48px;
@@ -58,7 +58,7 @@
 
 .footer-link {
     display: flex;
-    color: var(--text-color);
+    color: $text-color;
     font-size: 20px;
     line-height: 1;
 }
@@ -87,7 +87,7 @@
 }
 
 .footer-info {
-    color: var(--text-color);
+    color: $text-color;
     text-align: right;
     font-size: 14px;
     font-weight: 400;
@@ -103,7 +103,7 @@
 }
 
 .footer-copyright {
-    color: var(--text-color);
+    color: $text-color;
     text-align: right;
     font-size: 11px;
     font-weight: 400;

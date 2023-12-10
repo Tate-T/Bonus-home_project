@@ -1,5 +1,5 @@
 .cards {
-    background-color: var(--text-color);
+    background-color: $text-color;
 }
 
 .cards-item {
@@ -42,7 +42,7 @@
     font-size: 38px;
     line-height: 1.58;
     text-align: center;
-    color: var(--additional-text-color);
+    color: $additional-text-color;
     margin-right: 12px;
     border-radius: 100px;
     display: flex;
@@ -53,7 +53,7 @@
 }
 
 .cards-item:nth-child(1) .cards-number {
-    background-color: var(--link-color);
+    background-color: $link-color;
 }
 
 .cards-item:nth-child(2) .cards-number {
@@ -67,14 +67,14 @@
 .cards-paragraph {
     font-size: 19px;
     line-height: 1.89;
-    color: var(--additional-text-color);
+    color: $additional-text-color;
 }
 
 .cards-title {
     font-size: 35px;
     line-height: 1.31;
     letter-spacing: 1px;
-    color: var(--additional-text-color);
+    color: $additional-text-color;
     margin-bottom: 11px;
 }
 
@@ -83,12 +83,12 @@
     line-height: 2.5;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: var(--additional-text-color);
+    color: $additional-text-color;
     margin-bottom: 48px;
 }
 
 .cards-description {
     font-size: 14px;
     line-height: 1.57;
-    color: var(--additional-text-color);
+    color: $additional-text-color;
 }
